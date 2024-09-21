@@ -1,3 +1,0 @@
-procedure Increment (X : in out Counter_Type)
-  with Global => null,
-       Depends => (X => X);
